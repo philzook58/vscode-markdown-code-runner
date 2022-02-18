@@ -20,6 +20,9 @@ exports.languages = [
     "rust",
     "scala",
     "swift",
+    "julia",
+    "souffle",
+    "ocaml"
 ];
 exports.langExt = new Map([
     ["bash", ".sh"],
@@ -38,5 +41,8 @@ exports.langExt = new Map([
     ["rust", ".rs"],
     ["scala", ".scala"],
     ["swift", ".swift"],
+    ["julia", ".jl"],
+    ["ocaml", ".ml"],
+    ["souffle", ".dl"],
 ]);
 //# sourceMappingURL=share.js.map
