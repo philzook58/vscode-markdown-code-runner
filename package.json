@@ -77,7 +77,7 @@
 							"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 							"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 							"php": "php",
-							"python": "python2 -u",
+							"python": "python3 -u",
 							"python3": "python3 -u",
 							"bash": "bash -x",
 							"perl": "perl",
@@ -118,7 +118,8 @@
 							"v": "v run",
 							"sass": "sass --style expanded",
 							"scss": "scss --style expanded",
-							"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css"
+							"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+							"souffle": "souffle -D - "
 						},
 						"description": "Set the executor of each language.",
 						"scope": "resource"
