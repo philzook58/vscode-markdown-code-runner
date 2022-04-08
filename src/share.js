@@ -22,7 +22,16 @@ exports.languages = [
     "swift",
     "julia",
     "souffle",
-    "ocaml"
+    "ocaml",
+    "sql",
+    "prolog",
+    "elpi",
+    "minizinc",
+    "whyml",
+    "x86",
+    "clingo",
+    "cvc5",
+    "z3"
 ];
 exports.langExt = new Map([
     ["bash", ".sh"],
@@ -44,5 +53,14 @@ exports.langExt = new Map([
     ["julia", ".jl"],
     ["ocaml", ".ml"],
     ["souffle", ".dl"],
+    ["sql", ".sql"],
+    ["prolog", ".pl"],
+    ["elpi", ".elpi"],
+    ["minizinc", ".mzn"],
+    ["whyml", ".why3"],
+    ["x86", ".s"],
+    ["clingo", ".lp"],
+    ["cvc5", ".smt2"],
+    ["z3", ".smt2"]
 ]);
 //# sourceMappingURL=share.js.map

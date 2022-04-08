@@ -119,7 +119,16 @@
 							"sass": "sass --style expanded",
 							"scss": "scss --style expanded",
 							"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-							"souffle": "souffle -D - "
+							"souffle": "souffle -D - ",
+							"prolog": "swipl",
+							"sql": "sqlite3 -bail -echo <",
+							"elpi": "elpi -test",
+							"whyml": "why3 prove",
+							"minizinc": "minizinc",
+							"x86": "cd $dir && as $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+							"clingo": "clingo",
+							"cvc5": "cvc5",
+							"z3" : "z3"
 						},
 						"description": "Set the executor of each language.",
 						"scope": "resource"
