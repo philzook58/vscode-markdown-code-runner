@@ -129,7 +129,9 @@
 							"x86": "cd $dir && as $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt",
 							"clingo": "clingo",
 							"cvc5": "cvc5",
-							"z3" : "z3"
+							"z3" : "z3",
+							"ciao": "ciao run",
+							"scryer": "scryer-prolog"
 						},
 						"description": "Set the executor of each language.",
 						"scope": "resource"
