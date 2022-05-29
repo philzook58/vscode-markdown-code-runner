@@ -129,9 +129,10 @@
 							"x86": "cd $dir && as $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt",
 							"clingo": "clingo",
 							"cvc5": "cvc5",
-							"z3" : "z3",
+							"z3": "z3",
 							"ciao": "ciao run",
-							"scryer": "scryer-prolog"
+							"scryer": "scryer-prolog",
+							"eggsmol": "cargo run --manifest-path /home/philip/Documents/rust/egg-smol/Cargo.toml"
 						},
 						"description": "Set the executor of each language.",
 						"scope": "resource"
@@ -178,5 +179,7 @@
 		"typescript": "^3.8.3",
 		"vscode-test": "^1.3.0"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"vsce": "^2.7.0"
+	}
 }
