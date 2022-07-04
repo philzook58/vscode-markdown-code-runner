@@ -96,7 +96,7 @@
 							"coffeescript": "coffee",
 							"scala": "scala",
 							"swift": "swift",
-							"julia": "julia",
+							"julia": "#=\njulia\n# =#\ninclude($dir * \"$fileName\")",
 							"crystal": "crystal",
 							"ocaml": "ocaml",
 							"r": "Rscript",
@@ -132,7 +132,11 @@
 							"z3": "z3",
 							"ciao": "ciao run",
 							"scryer": "scryer-prolog",
-							"eggsmol": "cargo run --manifest-path /home/philip/Documents/rust/egg-smol/Cargo.toml"
+							"eggsmol": "cargo run --manifest-path /home/philip/Documents/rust/egg-smol/Cargo.toml",
+							"nasm": "cd $dir && nasm -f elf64 $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+							"edb": "cd $dir && nasm -f elf64 $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && edb --run ./$fileNameWithoutExt",
+							"cmd": "cd $dir && chmod +x $fileName && ./$fileName",
+							"coq": "coqtop -batch -l"
 						},
 						"description": "Set the executor of each language.",
 						"scope": "resource"

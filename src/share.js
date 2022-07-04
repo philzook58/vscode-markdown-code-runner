@@ -36,7 +36,12 @@ exports.languages = [
     "racket",
     "ciao",
     "scryer",
-    "eggsmol"
+    "eggsmol",
+    "haskell",
+    "cmd",
+    "nasm",
+    "edb",
+    "coq"
 ];
 exports.langExt = new Map([
     ["bash", ".sh"],
@@ -71,6 +76,11 @@ exports.langExt = new Map([
     ["racket", ".rkt"],
     ["ciao", ".pl"],
     ["scryer", ".pl"],
-    ["eggsmol", ".egg"]
+    ["eggsmol", ".egg"],
+    ["haskell", ".hs"],
+    ["nasm", ".s"],
+    ["edb", ".s"],
+    ["cmd", ".exe"],
+    ["coq", ".v"]
 ]);
 //# sourceMappingURL=share.js.map
