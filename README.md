@@ -23,3 +23,7 @@ email: jianpushen@gamil.com
 ![demo.gif](https://github.com/JeepShen/vscode-markdown-code-runner/blob/master/images/demo.gif)
 ## Change Log
 - 2020.06.14  release 0.1.0 
+
+```
+vsce package
+```
