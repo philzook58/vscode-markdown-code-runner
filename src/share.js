@@ -41,11 +41,8 @@ exports.languages = [
     "cmd",
     "nasm",
     "edb",
-<<<<<<< HEAD
-    "eggsmol"
-=======
-    "coq"
->>>>>>> a3c948260c3f4c8346692a8bc2a8985c30f7b82d
+    "coq",
+    "lean"
 ];
 exports.langExt = new Map([
     ["bash", ".sh"],
@@ -85,7 +82,7 @@ exports.langExt = new Map([
     ["nasm", ".s"],
     ["edb", ".s"],
     ["cmd", ".exe"],
-    ["eggsmol", ".egg"]
-    ["coq", ".v"]
+    ["coq", ".v"],
+    ["lean", ".lean"]
 ]);
 //# sourceMappingURL=share.js.map
