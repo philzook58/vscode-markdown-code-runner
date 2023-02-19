@@ -137,7 +137,8 @@
 							"edb": "cd $dir && nasm -f elf64 $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && edb --run ./$fileNameWithoutExt",
 							"cmd": "cd $dir && chmod +x $fileName && ./$fileName",
 							"coq": "coqtop -batch -l",
-							"lean": "lean --run"
+							"lean": "lean --run",
+							"vampire": "vampire"
 						},
 						"description": "Set the executor of each language.",
 						"scope": "resource"
